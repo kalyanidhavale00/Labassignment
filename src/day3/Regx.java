@@ -133,10 +133,10 @@ public class Regx {
 		System.out.println(m4.group(1));
 		System.out.println(m4.group(2));
 		System.out.println(m4.group(3));
-		
-		//0930 hrs - 1730 hrs
-		String str11="0930 hrs - 1730 hrs";
-		String pat1="[0-9]{4}\\s hrs\\s-\\s[0-9]{4}\\s hrs";
+
+		// 0930 hrs - 1730 hrs
+		String str11 = "0930 hrs - 1730 hrs";
+		String pat1 = "[0-9]{4}\\s hrs\\s-\\s[0-9]{4}\\s hrs";
 		System.out.println(Pattern.matches("[0-9]{4}\\shrs\\s-\\s[0-9]{4}\\shrs", str11));
 	}
 
