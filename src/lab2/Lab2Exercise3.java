@@ -2,7 +2,7 @@ package lab2;
 
 import java.util.Scanner;
 
-public class LabExercise3 {
+public class Lab2Exercise3 {
 	// accepting array
 	void accept(int a[], int n) {
 		System.out.println("enter the elemet in an array");
@@ -46,7 +46,7 @@ public class LabExercise3 {
 	}
 
 	public static void main(String[] args) {
-		LabExercise3 obj = new LabExercise3();
+		Lab2Exercise3 obj = new Lab2Exercise3();
 		Scanner sc = new Scanner(System.in);
 		System.out.println("enter how many element you want:");
 		int n = sc.nextInt();
