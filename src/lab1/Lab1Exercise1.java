@@ -3,7 +3,9 @@ package lab1;
 import java.util.Scanner;
 
 public class Lab1Exercise1 {
-
+    /*
+     * Sum of the cube of the digit of an n digit number*/
+	
 	int displaySum(int n)
 	{
 		int sum=0;
